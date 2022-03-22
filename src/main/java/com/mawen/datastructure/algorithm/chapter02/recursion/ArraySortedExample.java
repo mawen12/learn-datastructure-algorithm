@@ -1,4 +1,4 @@
-package com.mawen.datastructure.algorithm.chapter02;
+package com.mawen.datastructure.algorithm.chapter02.recursion;
 
 /**
  * 递归 - 判断数组中元素是否有序

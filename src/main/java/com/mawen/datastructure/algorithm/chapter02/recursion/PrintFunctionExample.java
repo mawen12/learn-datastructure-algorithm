@@ -1,4 +1,4 @@
-package com.mawen.datastructure.algorithm.chapter02;
+package com.mawen.datastructure.algorithm.chapter02.recursion;
 
 /**
  * 递归和内存（可视化）

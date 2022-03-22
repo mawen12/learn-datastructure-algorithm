@@ -1,4 +1,4 @@
-package com.mawen.datastructure.algorithm.chapter02;
+package com.mawen.datastructure.algorithm.chapter02.recursion;
 
 import org.junit.Assert;
 import org.junit.Test;
