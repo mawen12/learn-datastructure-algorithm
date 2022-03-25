@@ -1,34 +1,19 @@
 package com.mawen.datastructure.algorithm.chapter03;
 
+import lombok.Data;
+import lombok.RequiredArgsConstructor;
+
 /**
  * 循环链表
  * - P46
  */
+@Data
+@RequiredArgsConstructor
 public class CLLNode {
 
-    private int data;
+    private final int data;
 
     private CLLNode next;
-
-    public CLLNode(int data) {
-        this.data = data;
-    }
-
-    public int getData() {
-        return data;
-    }
-
-    public void setData(int data) {
-        this.data = data;
-    }
-
-    public CLLNode getNext() {
-        return next;
-    }
-
-    public void setNext(CLLNode next) {
-        this.next = next;
-    }
 
     // =====================基本操作==========================
 

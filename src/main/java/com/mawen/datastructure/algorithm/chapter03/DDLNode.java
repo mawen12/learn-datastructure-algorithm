@@ -1,43 +1,21 @@
 package com.mawen.datastructure.algorithm.chapter03;
 
+import lombok.Data;
+import lombok.RequiredArgsConstructor;
+
 /**
  * 双向链表
  */
+
+@Data
+@RequiredArgsConstructor
 public class DDLNode {
 
-    private int data;
+    private final int data;
 
     private DDLNode next;
 
     private DDLNode previous;
-
-    public DDLNode(int data) {
-        this.data = data;
-    }
-
-    public int getData() {
-        return data;
-    }
-
-    public void setData(int data) {
-        this.data = data;
-    }
-
-    public DDLNode getNext() {
-        return next;
-    }
-
-    public void setNext(DDLNode next) {
-        this.next = next;
-    }
-
-    public DDLNode getPrevious() {
-        return previous;
-    }
-
-    public void setPrevious(DDLNode previous) {
-        this.previous = previous;
-    }
 
     // =====================基本操作==========================
 
